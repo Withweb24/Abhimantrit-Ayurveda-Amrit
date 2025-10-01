@@ -146,12 +146,12 @@ input::-webkit-inner-spin-button {
     z-index: 5;
     position: relative;
 }
-.pa-logo{
-    padding-top:7px;
+.pa-logo img{
+    width: 170px;
 }
 .pa-logo a{
-    font-weight: 1000;
-    font-size: 25px;
+    /*font-weight: 1000;
+    font-size: 20px;*/
     color : white;
     text-decoration: none;
 }
@@ -174,7 +174,7 @@ input::-webkit-inner-spin-button {
     display: flex;
     align-items: center;
 	justify-content: flex-end;
-	padding-top: 9px;	
+	padding-top: 18px;	
 }
 
 .pa-head-icon {
@@ -239,7 +239,7 @@ input::-webkit-inner-spin-button {
     font-weight: 500;
     position: relative;
 }
-.pa-view-all:after {
+/*.pa-view-all:after {
     position: absolute;
     content: '';
     right: -40px;
@@ -250,8 +250,8 @@ input::-webkit-inner-spin-button {
     transform: rotate(45deg);
     border-top: 2px solid #6caaa8;
     border-right: 2px solid #6caaa8;
-}
-.pa-view-all:before {
+}*/
+/*.pa-view-all:before {
     position: absolute;
     content: '';
     width: 20px;
@@ -259,7 +259,7 @@ input::-webkit-inner-spin-button {
     top: 13px;
     right: -39px;
     background: #6caaa8;
-}
+}*/
 .pa-banner-text p {
     margin-bottom: 30px;
 }
@@ -2360,6 +2360,9 @@ ul.pa-submenu-two {
     .pa-banner-two {
         padding: 89px 80px 184px;
     }
+    .pa-logo img{
+        width: 150px;
+    }
     .pa-banner-two-img {
         width: 488px;
         height: 488px;
@@ -2573,7 +2576,7 @@ ul.pa-submenu-two {
         margin-bottom: 80px;
     }
     .pa-nav-bar {
-        padding-top: 8px;
+        padding-top: 15px;
     }
     .pa-toggle-nav2 span,.pa-head-three .pa-toggle-nav span {
         background: #6caaa8;
